@@ -7,7 +7,9 @@ def fib(n):
 
 def main():
     print fib(10)
-    print fib(9)
+    a=fib(9)
+    print(a**100 % 10**9+7)
+
 
 if __name__ == "__main__":
     main()
