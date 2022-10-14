@@ -7,6 +7,7 @@ def fib(n):
 
 def main():
     print fib(10)
+    print fib(9)
 
 if __name__ == "__main__":
     main()
